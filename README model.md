@@ -1,29 +1,28 @@
-  <h1 align="center">
-      <img src=./src/assets/logo.svg width="320" height="205">
-  </h1>
-
   <h2 align="center">
-      <tittle>Desafio com ReactJS</tittle>
+      <tittle>Frontend do Debt Manager</tittle>
   <h2 >
 
 
   ## 💬️ Sobre
 
-  Nesse desafio aprendi a implementar uma interface web com React.js utilizando componentes, estilização com styled-components e consumir dados de uma API externa(nesse caso o do github).
+  Esse código é uma interface simples para acessar a aplicação debt manager.
 
    👨‍💻️ Implementações realizadas:
-  - Foi criado as rotas dentro da aplicação ✔️;
-  - Estilização das páginas ✔️;
-  - Conexão da interface com API ✔️;
-  - Tratamento de erros ✔️;
-  - Armazenamento em cache das pesquisas ✔️;
+  - Cadastro de dívidas para pessoas ✔️;
+  - Autualização das informações de uma dívida ✔️;
+  - Remover uma dívida de uma pessoa ✔️;
+  - Histórico de todas as dívidas ✔️;
+  - Histórico das dívidas de um usuário ✖️;
+  - Integração de API para busca de usuários ✔️;
+  - 
+
   ---
 
   ## 🕵‍♂️️ O que esse projeto faz?
 
-  Ele busca repositórios no github, armazena essa pesquisa localmente e te permite visualizar informações sobre esse projeto em uma página específica.
+  Essa é a interface responsável para utilizaçãoo da aplicação debt manager.
 
-  Veja meu [post](https://www.linkedin.com/postsrenanrpdr_typescript-reactjs-gostack-activity-6668524574356897792-QB5b) no linkedin com ele funcionando! 👍🏻️
+  💡️ O backend da aplicação fica nesse [link](https://www.linkedin.com/postsrenanrpdr_typescript-reactjs-gostack-activity-6668524574356897792-QB5b) 💡️
 
   ---
 
@@ -31,33 +30,34 @@
 
   O projeto foi desenvolvido utilizando as seguintes tecnologias
 
-  - [TypeScript](https://www.typescriptlang.org/)
-  - [NodeJS](https://nodejs.org/en/about/)
-  - [Express](https://expressjs.com/pt-br/)
+  - [HTML](https://www.w3schools.com/html/)
+  - [CSS](https://www.w3schools.com/css/)
+  - [TypeScript](https://nodejs.org/en/about/)
+  - [JavaScript](https://www.w3schools.com/js/)
   - [Eslint](https://eslint.org/docs/user-guide/configuring)
-  - [Prettier](https://prettier.io/docs/en/cli.html)
-  - [Docker](https://www.docker.com/why-docker)
-  - [PostgreSQL](https://www.postgresql.org/)
+  - [Prettier](https://prettier.io/docs/en/cli.html) 
   - [JSON](https://www.json.org/json-en.html)
 
 
   ---
 
-  ## 🗂 Como baixar o projeto ?
+  ## 🗂 Como baixar e instalar projeto ?
 
   ```bash
 
       # Clone o repositório no github
-      $ git clone https://github.com/RenanRPDR/primeiro-projeto-com-react.git
+      $ git clone https://github.com/RenanRPDR/debt-manager-front
 
       # Entre no diretório "primeiro-projeto-node"
-      $ cd primeiro-projeto-com-react
+      $ cd front
 
-      # Rode um yarn para instalar as dependências do projeto
+      # Rode um yarn ou npm para instalar as dependências do projeto
       $ yarn
 
-      # Inicie o projeto
+      # Inicie o projeto rodando um start!
       $ yarn start
+
+      # Lembrando que o backend já deve estar rodando para funciar
   ```
   ---
 

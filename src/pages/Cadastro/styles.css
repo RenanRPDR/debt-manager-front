@@ -1,0 +1,88 @@
+.grid-container {
+  display: grid;
+  grid-template-rows: 0.3fr 2.4fr 0.3fr;
+  gap: 1px 1px;
+  grid-template-areas: "Header" "Content" "Footer";
+  box-shadow: 1px 1px 5px 0.1px black;
+}
+
+.Content {
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr;
+  grid-template-rows: 1fr;
+  gap: 1px 1px;
+  grid-template-areas: "Lista Cadastro";
+  grid-area: Content;
+}
+
+.Historic { 
+  /* background-color: cadetblue; */
+  margin-left: 25px;
+}
+
+.historicTitle {
+  margin-left: 60px;
+
+}
+
+.Register{
+  margin-left: 50px;
+  padding-left: 50px;
+}
+
+.listDebtsResults {
+  border-radius: 4px;
+  margin-top: 5px;
+  box-shadow: 1px 1px 2.5px 0px black;
+  padding: 3px;
+  width: 225px;
+  
+}
+
+.listDebtsResults:hover {
+  background-color:#6f6f803b;
+  /* margin-left: 2px; */
+  transition: 0.4s;  
+
+}
+
+
+.Header { grid-area: Header;
+  text-align-last: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  /* background-color:rgb(141, 21, 21) */
+}
+
+.debtManager {
+  color: black;
+}
+
+.historicTitle {
+  /* background-color: rgb(126, 122, 89); */
+  color: black;
+  display: flex;
+  align-items: center;
+}
+
+.registerTitle {
+  /* background-color: khaki; */
+  color: black;
+  display: flex;
+  align-content: flex-start;
+}
+
+
+.eraseButton {
+  margin-left: 3%;
+}
+
+.saveButton {
+  margin-left: 5%;
+}
+
+.newDebit {
+  margin-top: 20px;
+}
+
+.Footer { grid-area: Footer; }
