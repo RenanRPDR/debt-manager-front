@@ -3,7 +3,7 @@
   <h1 >
 
 
-  ## 💬️ Sobre
+  ## 💬️ Sobre o projeto
 
   Esse código é uma simples interface para acessar a aplicação debt manager.
 
