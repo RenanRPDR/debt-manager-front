@@ -1,6 +1,7 @@
 .grid-container {
   display: grid;
-  grid-template-rows: 0.3fr 2.4fr 0.3fr;
+  grid-template-columns: ;
+  grid-template-rows: 0.5fr 2.8fr 0.4fr;
   gap: 1px 1px;
   grid-template-areas: "Header" "Content" "Footer";
   box-shadow: 1px 1px 5px 0.1px black;
@@ -41,7 +42,6 @@
 
 .listDebtsResults:hover {
   background-color:#6f6f803b;
-  /* margin-left: 2px; */
   transition: 0.4s;  
 
 }
@@ -86,3 +86,52 @@
 }
 
 .Footer { grid-area: Footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: ;
+  grid-template-rows: 0.5fr 2.8fr 0.4fr;
+  gap: 1px 1px;
+  grid-template-areas: "Header" "Content" "Footer";
+}
+
+.Header { grid-area: Header; }
+
+.Footer { grid-area: Footer; }
+
+.Content {
+  display: grid;
+  grid-template-columns: 0.8fr 1.4fr 0.8fr;
+  grid-template-rows: 0.2fr 1.8fr;
+  gap: 1px 1px;
+  grid-template-areas: "TitleHistoric TitleRegister TitleUserHistoric" "Historic Register UserHistoric";
+  grid-area: Content;
+}
+
+.TitleHistoric {
+  grid-area: TitleHistoric;
+  margin-left: 85px;
+}
+
+.TitleRegister {
+  grid-area: TitleRegister;
+  margin-left: 100px;
+
+}
+
+.TitleUserHistoric {
+  grid-area: TitleUserHistoric;
+  margin-right: 25px;
+}
+
+.Historic {
+  grid-area: Historic;
+}
+
+.UserHistoric { grid-area: UserHistoric; }
+
+.Register { grid-area: Register; }
+
+.operationMessage {
+  margin-left: 350px;
+}
