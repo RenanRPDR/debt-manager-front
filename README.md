@@ -5,7 +5,7 @@
 
   ## 💬️ Sobre
 
-  Esse código é uma interface simples para acessar a aplicação debt manager.
+  Esse código é uma simples interface para acessar a aplicação debt manager.
 
    👨‍💻️ Implementações realizadas:
   - Cadastro de dívidas para pessoas ✔️;
@@ -14,13 +14,12 @@
   - Histórico de todas as dívidas ✔️;
   - Histórico das dívidas de um usuário ✔️;
   - Integração de API para busca de usuários ✔️;
-  - 
 
   ---
 
   ## 🕵‍♂️️ O que esse projeto faz?
 
-  Essa é a interface responsável para utilizaçãoo da aplicação debt manager.
+  O projeto tem por objetivo cadastrar dívidas associando elas a um usuário. Estes usuários são buscados em uma API externa através de um serviço do nosso backend.
 
   💡️ O backend da aplicação fica nesse [link](https://www.linkedin.com/postsrenanrpdr_typescript-reactjs-gostack-activity-6668524574356897792-QB5b) 💡️
 
