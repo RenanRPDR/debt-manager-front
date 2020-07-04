@@ -1,6 +1,6 @@
-  <h2 align="center">
+  <h1 align="center">
       <tittle>Frontend do Debts Manager</tittle>
-  <h2 >
+  <h1 >
 
 
   ## 💬️ Sobre
