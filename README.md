@@ -1,5 +1,5 @@
   <h2 align="center">
-      <tittle>Frontend do Debt Manager</tittle>
+      <tittle>Frontend do Debts Manager</tittle>
   <h2 >
 
 
@@ -12,7 +12,7 @@
   - Autualização das informações de uma dívida ✔️;
   - Remover uma dívida de uma pessoa ✔️;
   - Histórico de todas as dívidas ✔️;
-  - Histórico das dívidas de um usuário ✖️;
+  - Histórico das dívidas de um usuário ✔️;
   - Integração de API para busca de usuários ✔️;
   - 
 
@@ -56,8 +56,9 @@
 
       # Inicie o projeto rodando um start!
       $ yarn start
-
-      # Lembrando que o backend já deve estar rodando para funciar
+    
+      ### IMPORTANTE! ###
+      # Primeiro de inicie a aplicação no backend #
   ```
   ---
 
